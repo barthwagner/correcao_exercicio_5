@@ -1,0 +1,53 @@
+.container{
+    width: 90%;
+    height: 135px;
+    background-color: rgb(127, 246, 255);
+    margin: auto;
+    margin-top: 5%;
+}
+
+.container .formulario {
+    padding: 10px;
+}
+
+.container .formulario .left {
+    float: left;
+    width: 49%;
+}
+
+.container .formulario .right{
+    float: right;
+    width: 49%;
+}
+
+.container .formulario .left #div-nome {
+    margin-bottom: 10px;
+}
+
+.container .formulario .left #div-email {
+    margin-bottom: 10px;
+}
+
+.container .formulario .right #div-idade {
+    margin-bottom: 10px;
+}
+
+.container .formulario .right #div-senha {
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 100%;
+}
+
+.input:hover {
+    background-color: rgb(84, 196, 204);
+}
+
+.input:focus {
+    background-color: rgb(84, 196, 204);
+}
+
+#btn-enviar {
+    float: right;
+}
